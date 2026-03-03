@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Backtest outputs (generated)
+backtest_*.csv
+backtest_*.png
+BackTest/backtest_*.csv
+BackTest/backtest_*.png
+
+# Local trading configuration (DO NOT COMMIT)
+Trade_real/config.py
+
+# Local data / caches
+*.sqlite
+*.sqlite3
+*.db
+*.pkl
